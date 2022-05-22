@@ -1,0 +1,66 @@
+body{
+    position: relative;
+
+    min-height: 100vh;
+}
+
+footer {
+    text-align: center;
+    background-color: #333333;
+    color: aliceblue;
+    padding: 20px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+
+span{
+    color: royalblue;
+}
+
+.detel p{
+    color: rgba(0, 0, 0, 0.333);
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
